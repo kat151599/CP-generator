@@ -38,7 +38,7 @@
 Нижче — **реальні екрани застосунку**, а не mockup: основна форма, історія, коди полів, HTML-дизайни та параметри розрахунків.
 
 <p align="center">
-  <img src="assets/proposal-builder-showcase.jpg" alt="Proposal Builder real application screens" width="100%" />
+  <img src="assets/proposal-builder-showcase.svg" alt="Proposal Builder real application screens" width="100%" />
 </p>
 
 ---
