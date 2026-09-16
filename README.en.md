@@ -38,7 +38,7 @@
 These are **real application screens**, not mockups: the main proposal form, history, field codes, HTML designs, and calculation settings.
 
 <p align="center">
-  <img src="assets/proposal-builder-showcase.jpg" alt="Proposal Builder real application screens" width="100%" />
+  <img src="assets/proposal-builder-showcase.svg" alt="Proposal Builder real application screens" width="100%" />
 </p>
 
 ---
