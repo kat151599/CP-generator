@@ -22,14 +22,17 @@
 > [!IMPORTANT]
 > This is a **public portfolio case study**. Production source code, operational configuration, and real customer data remain private.
 
+## Project at a glance
+
 | | |
 |---|---|
-| **Solution type** | Internal web application / proposal automation |
-| **My role** | Process analysis, architecture, AI-assisted implementation, UI/UX, runtime validation |
-| **Backend** | Python · Flask · Waitress |
-| **Frontend** | JavaScript · HTML · CSS |
-| **Core idea** | Structured data → calculations → reusable template → ready HTML proposal |
-| **Status** | Working internal tool |
+| **Business problem** | Managers had to transfer customer data, repeat calculations and assemble proposals manually in different designs. |
+| **Solution** | A web app with input validation, a calculation engine, configurable HTML templates, drafts and document history. |
+| **Working demonstration** | [Real proposal-builder screens](assets/proposal-builder-showcase.svg). Live walkthrough on request; no public interactive demo. |
+| **Result** | Proposals are generated from structured data; drafts can be reused and calculated fields refresh when reopened. |
+| **Technical implementation** | Python, Flask, Waitress, JavaScript, REST-style API, calculations, stable field codes and HTML templates. |
+| **Project status** | Working internal tool; production code is private. |
+| **My contribution** | Data and formula modeling, validation rules, workflow design, template mechanics and real-output verification. |
 
 ---
 
@@ -121,7 +124,7 @@ History operations use separate create/update API flows, including `PATCH` for d
 
 I converted a real proposal-preparation workflow into a data model and software process: defining entities, fields, formulas, validation rules, template mechanics, history behavior, and document reuse scenarios.
 
-Development followed an **AI-assisted workflow**: I defined requirements and architecture, worked with the existing codebase, validated actual runtime behavior, and made acceptance/revision decisions while using LLMs to accelerate implementation and code analysis.
+*Development process: LLM tools assisted with implementation and code analysis; requirements, architecture decisions and acceptance testing remained my responsibility.*
 
 ---
 
